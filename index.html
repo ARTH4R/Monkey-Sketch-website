@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Monkey Sketch</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="sketch-pad">
+            
+        </div>
+        <div id="button-container">
+            <h1 class="website-header">Monkey Sketch</h1>
+            <div class="button-section">
+                <button class="button" id="resize-button" onclick="reSize()">Resize <img src="./asset/icon/resize.png" width="17px" height="17px" alt="" class="resize-icon"></button>
+                <button class="button" id="rainbow-mode-button">Rainbow Mode</button>
+                
+                <div class="below-container">
+                    <div id="current-grid" class="current-grid">Currnet Size : 16 x 16</div>
+                    <button onclick="resetColor()" class="clear-button button" id="clear-button"><img src="./asset/icon/clear.png" width="25px" height="25px" alt="" class="clear-icon"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
